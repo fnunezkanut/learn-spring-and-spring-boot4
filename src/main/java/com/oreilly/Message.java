@@ -3,10 +3,10 @@ package com.oreilly;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 public class Message {
 
-	@Value("${my.messageValue}")
+	//@Value("${my.messageValue}")
 	private int messageValue;
 
 	//getters and setters
