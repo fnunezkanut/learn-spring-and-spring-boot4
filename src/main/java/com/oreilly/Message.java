@@ -1,6 +1,8 @@
 package com.oreilly;
 
+import org.springframework.boot.context.properties.ConfigurationProperties;
 
+@ConfigurationProperties(prefix = "my")
 public class Message {
 
 	private String messageValue;
