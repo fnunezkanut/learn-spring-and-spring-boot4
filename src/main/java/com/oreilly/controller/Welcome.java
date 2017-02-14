@@ -14,6 +14,6 @@ public class Welcome {
 	@RequestMapping("/")
 	public String welcome(){
 
-		return "Welcome, random number is " + message.getMessageValue();
+		return "Welcome: " + message.getMessageValue();
 	}
 }
