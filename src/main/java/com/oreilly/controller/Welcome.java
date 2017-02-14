@@ -11,6 +11,7 @@ public class Welcome {
 	@Autowired
 	private Message message;
 
+
 	@RequestMapping("/")
 	public String welcome(){
 
